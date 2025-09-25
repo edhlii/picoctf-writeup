@@ -1,5 +1,4 @@
-
-![[Pasted image 20250925154725.png]]
+<img width="622" height="476" alt="image" src="https://github.com/user-attachments/assets/2bef9dad-3c1a-446b-973d-51c0cf9d9349" />
 
 
 Chương trình nhập vào một chuỗi, sau đó kết thúc.
