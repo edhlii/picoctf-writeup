@@ -1,5 +1,5 @@
 
-![[Pasted image 20250925154725.png]]
+![](attachments/Pasted image 20250925154725.png)
 
 
 Chương trình nhập vào một chuỗi, sau đó kết thúc.
