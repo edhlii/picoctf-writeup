@@ -2,8 +2,7 @@
 
 
 Chương trình nhập vào một chuỗi, sau đó kết thúc.
-
-![[Pasted image 20250925095851.png]]
+<img width="435" height="107" alt="Pasted image 20250925095851" src="https://github.com/user-attachments/assets/71581f69-6fb6-4f43-bdf0-4aed0bb09431" />
 
 Dùng `file` để kiểm tra, phát hiện đây là ELF 32-bit, little endian:
 ![[Pasted image 20250925110522.png]]
