@@ -7,7 +7,7 @@ Challenge cung cấp file elf cùng với mã nguồn. Mục tiêu là xâm nh�
 `checksec`:
 ![alt text](image-1.png)
 <br>
-Khi chạy chương trình, ta sẽ được cung cấp địa chỉ của hàm `main(). Sau đó ta sẽ được yêu cầu nhập vào một xâu hex, ta sẽ được nhảy tới địa chỉ mà ta vừa nhập vào. Như vậy, mục tiêu là bypass cơ chế `PIE` để truy cập vào hàm `win()`, từ đó lấy được thông tin `flag` <br>
+Khi chạy chương trình, ta sẽ được cung cấp địa chỉ của hàm `main()`. Sau đó ta sẽ được yêu cầu nhập vào một xâu hex, ta sẽ được nhảy tới địa chỉ mà ta vừa nhập vào. Như vậy, mục tiêu là bypass cơ chế `PIE` để truy cập vào hàm `win()`, từ đó lấy được thông tin `flag` <br>
 `info functions`:
 ![alt text](image-2.png)
 Dùng `gdb` để xem địa chỉ tương đối của các hàm, ta dễ dàng tính ra offset giữa hàm `main()` và `win()` bằng `0x96`. <br>
