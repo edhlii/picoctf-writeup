@@ -31,8 +31,9 @@ p.interactive()
 <br>
 
 Ta đã biết rằng flag bị kẹp giữa secret1 và secret2. Ta giải mã các giá trị hex này xem sao. Sử dụng `CyberChef`. <br>
-Phát hiện một dãy giá trị có vẻ là flag.
+Phát hiện một dãy giá trị có vẻ là flag. <br>
 ![alt text](image-5.png)
+<br>
 Do ta đang thao tác trên file 64bit, little endian (xem thông tin file phía trên). Nên cứ mỗi 8 ký tự, ta đảo ngược lại. Do lười nên tôi viết nhanh một script python làm điều này.
 ```python
 flag_rev = '{FTCocip5_14m1n44x4_31y746_g41f_}611772'
@@ -45,5 +46,5 @@ for i in range(0, len(flag_rev), 8):
 
 print(flag)
 ```
-May mắn ta đã lấy được flag:
+May mắn ta đã lấy được flag: <br>
 ![alt text](image-6.png)
